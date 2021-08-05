@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+	width: 100%;
+	height: 90vh;
+	padding:40px 2%;
+	/*max-height: 700px;*/
+	background-size: cover;
+	background-position: center;
+	background-image: url('../imagens/capa.png');
+    font-weight: 300;
+}
+
+header nav{
+    float: right;
+}
+
+header .logo{
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: gray;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav li{
+	float: left;
+    padding:0 20px ;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .chamada1{
+	max-width: 600px;
+	float: right;
+    margin:140px 150px;
+}
+
+.chamada1 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.chamada1 p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section-1{
+    width: 100%;
+    background-color: #472562;
+	padding:0px 2%;
+}
+
+section.section-1 .container{
+	max-width: 1000px;
+}
+
+.chamada2{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.chamada2 h2{
+    font-weight: 300;
+}
+
+.chamada2 p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.chamada2 ul{
+    font-size: 13px;
+    list-style-position: inside;
+}
+
+.chamada2 li{
+    width: 100%;
+    float: left;
+}
+
+.chamada2 .botao-1{
+    width: 160px;
+    height: 55px;
+    line-height: 50px;
+    cursor: pointer;
+	background-color: #FF703D;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.img1{
+	float: left;
+	width: 50%;
+	height: 300px;
+	background-image: url('../imagens/device.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}

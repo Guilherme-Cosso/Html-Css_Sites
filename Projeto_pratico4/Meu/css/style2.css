@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Header*/   
+header{
+    padding:  20px 2% 0px 2%;
+    border-bottom: 6px #b4b4be double;
+}
+    /*Logo*/
+header .logo{
+    float: left;
+    width: 240px;
+    height: 50px;
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    /*Menu do Site*/
+.menu{
+    float: right;
+}
+
+.menu ul{
+    list-style-type:none ;
+}
+
+.menu li{
+    float: left;
+    padding: 20px 20px;
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+/*Section 1 Mosaico*/
+
+.box{
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.mosaico{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img{
+    width: 100%;
+    padding-top: 90%;
+    border: 3px solid white;
+}
+
+/*
+.mosaico:nth-of-type(1) .img:nth-of-type(1){
+    background-image: url(../imagens/img_perfil.png);
+    background-position: top;
+    background-size: cover;
+}
+*/
+
+.mosaico .img:nth-of-type(1){
+    background-image: url(../imagens/img_perfil.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.mosaico .img:nth-of-type(2){
+    background-image: url(../imagens/Foto.jfif);
+    background-position-y: -25px;
+    background-size: cover;
+}
+
+.section2 > .container{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+}
+
+/* Section 2 Infos*/
+section.section2 > .container{
+	max-width: 800px;
+	display: flex;
+	align-items: center; 
+	position: relative;
+	top:-35px;
+	text-align: center;
+}
+
+section.section2 > .container .info{
+	background-image: url('../imagens/icone_dente.png');
+	background-size: 18px 18px;
+	background-position: center calc(100% - 13px);
+	background-repeat: no-repeat;
+}
+
+section.section2 > .container .info h2{
+	color: white;
+	font-weight: normal;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+section.section2 > .container .info p{
+	color: white;
+	margin-top:8px;
+	font-weight: normal;
+	font-size: 12px;
+	
+}
+
+section.section2 > .container .info:nth-of-type(1){
+	width: 30%;
+	padding:50px 2%;
+	background-color: #576975;
+}
+
+section.section2 > .container .info:nth-of-type(2){
+	width: 40%;
+	padding:80px 2%;
+	background-color: #688396f6;
+	background-image: none;
+}
+
+section.section2 > .container .info:nth-of-type(3){
+	width: 30%;
+	padding:50px 2%;
+	background-color: #576975;
+}
+
+/*.section3-*/
+
+section.section3{
+	padding:40px 0;
+}
+
+section.section3 .container{
+	max-width: 800px;
+}
+
+section.section3 .caixa{
+	padding-top:60%;
+	position: relative;
+}
+
+section.section3 .caixa2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+section.section3 .img-perfil{
+	width: 40%;
+	height: 100%;
+	background-image: url('../imagens/img_perfil.png');
+	background-size: 100% 100%;
+}
+
+section.section3 .texto-perfil{
+	width: 60%;
+	padding:0 30px;
+}
+
+section.section3 .texto-perfil h2{
+	 color: #698293;
+	 font-size: 18px;
+}
+
+section.section3 .texto-perfil p{
+	color: #4b4b4b;
+	font-size: 14px;
+	margin-top:8px;
+}
+
+/*section4*/
+section.section4 .video{
+    position: relative;
+    float: left;
+    width: calc(100% / 3);
+    border: solid white 5px;
+
+    padding-top: calc(0.6 * calc(100% / 3));
+}
+
+section.section4 iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.section5{
+	padding: 50px 0;
+	width: 100%;
+}
+
+.section5 > h2{
+	color: #698293;
+	text-align: center;
+	font-size: 25px;
+}
+
+section.section5 .colunas{
+	padding: 20px 0;
+	width: 33%;
+	float: left;
+}
+
+section.section5 .item{
+	text-align: justify;
+	padding: 30px;
+}
+
+.item h2{
+	text-align: center;
+	font-size: 18px;
+	color: #737373;
+}
+
+.item p{
+	padding:10px 0;
+	font-size: 13px;
+	color: #b4b4b4;
+}
+
+.depoimentos{
+	width: 100%;
+	margin-top: 250px;
+	text-align: center;
+	padding: 0 25%;
+}
+
+.depoimentos .foto{
+	float: left;
+	width: 50%;
+}
+
+.depoimentos .texto{
+	width: 50%;
+	float: right;
+}
